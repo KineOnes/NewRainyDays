@@ -29,7 +29,7 @@ h1 {
 
 footer {
     background-color: #2A7497;
-    height: 50px;
+    height:20px;
     text-align: center;
     padding: 20px;
 }
@@ -37,4 +37,15 @@ footer {
 .footerText {
     color: white;
     padding: 30px;
+}
+
+p {
+    max-width: 400px;
+    text-align: center;
+}
+
+.signature {
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
 }
