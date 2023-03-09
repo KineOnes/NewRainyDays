@@ -1,0 +1,51 @@
+.product {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.products {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 0px;
+  }
+
+  .product {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 462px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+  }
+
+  .view_button {
+    padding: 0px;  
+}
+
+@media(max-width: 600px){
+    .product{
+      height: 465px;
+      padding-bottom: 30px;
+    }
+  }
+
+  @media(min-width: 600px){
+    .products {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media(min-width: 900px){
+    .products {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  @media(max-width: 600px){
+    .products{
+      width: 50%
+    }
+  }
