@@ -1,6 +1,5 @@
-/* CART page */
 img {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .container {
@@ -14,11 +13,11 @@ img {
     text-align: center;
     flex: 1px;
     padding: 5px;
-    
+    background-color: rgba(255, 255, 255, 0.504);
 }
 
 .page_title { /* title to every page in main (example; SHOP, CART etc)*/
-    color: rgb(0, 0, 0);
+    color: white;
 }
 @media(max-width: 600px){
     .container{
@@ -33,22 +32,3 @@ img {
       grid-template-columns: 1fr;
     }
   }
-  
-main div {
-      max-width: 635px;
-      text-align: center;
-      color: rgb(0, 0, 0);
-      grid-column-gap: 20px;
-      grid-row-gap: 20px;
-      margin: 0 auto;
-      padding-bottom: 80px;
-}
-    
-.jackets {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-}  
-
-main {
-    padding-bottom: 40px;
-}
