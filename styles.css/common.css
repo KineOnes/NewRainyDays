@@ -9,6 +9,7 @@ header {
 
 main, header, body {
     margin: auto;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -42,7 +43,6 @@ footer {
 }
 
 p {
-    max-width: 400px;
     text-align: center;
 }
 
@@ -61,4 +61,8 @@ p {
 
 figure {
     margin: 0;
+}
+
+.info {
+    text-align: center;
 }
