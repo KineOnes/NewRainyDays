@@ -10,6 +10,10 @@ img {
     max-height: 433px;
 }
 
+.info_background {
+    margin-top: 20px;
+}
+
 .item {
     text-align: center;
     flex: 1px;
@@ -45,3 +49,5 @@ main div {
 main {
     padding-bottom: 40px;
 }
+
+
