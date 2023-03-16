@@ -95,3 +95,9 @@ figure {
 .info {
     text-align: center;
 }
+
+@media(max-width: 600px){
+    .news{
+        max-width: 265px;
+    }
+}
