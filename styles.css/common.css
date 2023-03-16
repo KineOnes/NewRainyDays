@@ -3,6 +3,10 @@ header {
    max-width: 840px;
 }
 
+a {
+    color: white;
+}
+
 .logo {
     max-width: 250px;
 }
@@ -96,8 +100,44 @@ figure {
     text-align: center;
 }
 
+.news {
+    max-width: 804px;
+}
+
+@media(max-width: 900px){
+    .news{
+        max-width: 465px;
+    }
+}
+
 @media(max-width: 600px){
     .news{
         max-width: 265px;
     }
 }
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    color: white;
+  }
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 160px;
+    opacity: 90%;
+    font-style: oblique;
+  }
+
+  @media(max-width: 600px){
+    .centered{
+        font-size: 70px;
+    }
+}
+  
